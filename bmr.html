@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy++</title>
+    <link rel="stylesheet" href="bmr-bmi.css">
+    
+</head>
+<body>
+    <div class="header">
+        <h1>Healthy++</h1>
+    </div>
+      
+      <div class="row">
+        <div class="col-3 col-s-3 menu">
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="bmr.html"><li>BMR Calculator</li></a>
+            <a href="bmi.html"><li>BMI Calculator</li></a>
+            <a href="diet-plan.html"><li>Diet Planing</li></a>
+            <a href="height.html"><li>Height avg</li></a>
+            <a href="covidapi.html"><li>Covid-19</li></a>
+            <!--<a href="dustapi.html"><li>PM2.5</li></a>-->
+          </ul>
+        </div>
+
+        
+
+        <class class="mainn">
+          <div class="content">
+              <h1>
+                  BMR Calculator
+              </h1>
+              
+              <form>
+                  <div id="big">
+                      <label>
+                          <input type="radio" value="male" id="check1" name="gender" checked="checked"/>
+                          <span>MALE</span>
+                      </label>
+                      <label>
+                          <input type="radio" value="female" id="check2" name="gender"/>
+                          <span>FEMALE</span>
+                      </label>
+  
+                      <br>
+                      <br>
+      
+                      <label for="age">AGE</label>
+                      <input type="text" class="age" id="age" name="age" placeholder="Your Age..">
+                  
+                      <label for="weight">WEIGHT</label>
+                      <input type="text" class="weight" id="weight" name="weight" placeholder="Your Weight..">
+                      
+                      <label for="height">HEIGHT</label>
+                      <input type="text" class="height" id="height" name="height" placeholder="Your Height..">
+                  </div>
+                  <button id="btn">Calculate</button>
+              </form>
+          </div>
+
+            <div class="rsideb">
+              <img class="ex" src="excercise.png">
+            </div>
+            
+          </class>
+
+      </div>
+      
+      </div>
+
+      
+      
+    
+      <div class="footer">
+        <p>Copyright use for sending assignment to borntodev only © Copyright Website 2021</p>
+      </div>
+      <script src="bmr.js"></script>
+</body>
+</html>
